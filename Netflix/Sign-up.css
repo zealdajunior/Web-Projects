@@ -4,14 +4,11 @@ body{
     min-height: 100vh;
     width: auto;
     height: auto;
-    background-image: url('..//asssets/General imags/115875-1920x1080-desktop-full-hd-netflix-background-image.jpg');
+    background-image: url('../../Assests/picture/juraj-gabriel-quakYRO_QQI-unsplash.jpg');
     background-size: cover;              
     background-repeat: no-repeat;       
     background-position: center center; 
     background-attachment: fixed;        
-    min-height: 100vh;
-    width: 100%;
-   
 }
 .Label{
     display: flex;
@@ -27,7 +24,6 @@ body{
     padding-left: 50px;
     padding-right: 50px;
     gap: 15px;
-    
 }
 label,input{
     padding-left: 10px;
@@ -54,7 +50,6 @@ label,input{
     width: 400px;
     height: 42px;
     border-radius: 2px;
-   
 }
 .Sign-In:hover{
     opacity: 50%;

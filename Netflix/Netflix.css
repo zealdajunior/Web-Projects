@@ -2,14 +2,16 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url('Assests\picture\juraj-gabriel-quakYRO_QQI-unsplash.jpg');
+    background-image: url('../../Assests/picture/thibault-penin-3HInbCmQ8ro-unsplash.jpg');
     background-size: cover;              
     background-repeat: no-repeat;        
     background-position: center center;  
     background-attachment: fixed;        
     min-height: 100vh;
 }
-
+h3{
+    font-size: 25px;
+}
 li {
     list-style: none;
 }
@@ -19,6 +21,7 @@ a {
 }
 
 p {
+    font-size: 20px;
     padding-left: 20px;
     padding-top: 40px;
 }
@@ -38,6 +41,10 @@ img {
 ::placeholder {
     padding-left: 10px;
     color: black;
+}
+section{
+    background-color: #000000;
+    padding: 100px;
 }
 
 /* ========== Navigation ========== */
@@ -116,30 +123,60 @@ input {
     padding-left: 20px;
     color: white;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 20px;
 }
 
-.reason1, .reason2, .reason3, .reason4 {
+.reason1 {
     background: linear-gradient(to top, rgba(48, 0, 48, 0.9), rgba(160, 0, 0, 0.6));
     padding-left: 20px;
-    height: 200px;
+    width: 590px;
+    height: 350px;
+    border-radius: 20px;
+}
+.reason2{
+    background: linear-gradient(to top, rgba(48, 0, 48, 0.9), rgba(160, 0, 0, 0.6));
+    padding-left: 20px;
+    width: 590px;
+    height: 350px;
+    border-radius: 20px;
+}
+.reason3{
+    background: linear-gradient(to top, rgba(48, 0, 48, 0.9), rgba(160, 0, 0, 0.6));
+    padding-left: 20px;
+    width: 590px;
+    height: 350px;
+    border-radius: 20px;
+}
+.reason4{
+    background: linear-gradient(to top, rgba(48, 0, 48, 0.9), rgba(160, 0, 0, 0.6));
+    padding-left: 20px;
+    width: 590px;
+    height: 350px;
     border-radius: 20px;
 }
 
 /* ========== FAQ Section ========== */
 .questions {
+    display: flex;
     padding: 70px;
+    flex-direction: column;
+    gap: 10px;
+    
 }
 
 .question1, .question2, .question3, .question4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     color: white;
     font-size: 25px;
-    text-align: left;
     padding-left: 20px;
-    background-color: #000000;
+    align-items: center;
+    padding-right: 30px;
+    background-color: #303030;
     height: 100px;
-    gap: 30px;
+    
 }
 
 /* ========== Footer Signup Section ========== */
