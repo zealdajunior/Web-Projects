@@ -1,0 +1,233 @@
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    width: auto;
+    height: auto;
+    background-image: url('..//asssets/General imags/115875-1920x1080-desktop-full-hd-netflix-background-image.jpg');
+    background-size: cover;              
+    background-repeat: no-repeat;       
+    background-position: center center; 
+    background-attachment: fixed;        
+    min-height: 100vh;
+    width: 100%;
+   
+}
+.Label{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    border: 1px solid rgba(255, 255, 255, 0);
+    background-color: rgba(0, 0, 0, 1);
+    color: white;
+    opacity: 70%; 
+    width: 400px;
+    height: 750px;
+    margin: 40px auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    gap: 15px;
+    
+}
+label,input{
+    padding-left: 10px;
+    color: white;
+    background-color: black;
+    border-style: outset;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-width: 2px;
+    border-radius:2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 30px;
+}
+.form{
+    padding-top: 60px;
+    display: flex;
+    height: 500px;
+    width: 100%;
+}
+.Sign-In{
+    color: white;
+    border: 2px solid rgba(255, 255, 255, 0);
+    background-color: red;
+    width: 400px;
+    height: 42px;
+    border-radius: 2px;
+   
+}
+.Sign-In:hover{
+    opacity: 50%;
+}
+.space{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+.code{
+    opacity: 40%;
+    width: 400px;
+    height: 42px;
+}
+.code:hover{
+    opacity:20%;
+}
+#checkbox{
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+    align-items: center;
+}
+.Sign{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+#password{
+    color: white;
+    text-align: center;
+}
+#OR{
+    color:white;
+    text-align: center;
+}
+
+p{
+    color:whitesmoke;
+}
+
+#Learn{
+    color: skyblue;
+}
+::placeholder{
+    padding-left: 10px;
+    color: white;
+}
+#paragraph{
+    color: gray;
+}
+#tap-in{
+    color: white;
+    text-decoration: none;
+}
+.test{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+#sign{
+    color: white;
+    font-size: 32px;
+}
+/*Media Queries*/
+@media(max-width : 1024px){
+    .Label{
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0 0 20px rgba(0,0,0,0.5);
+        border: 1px solid rgba(255, 255, 255, 0);
+        background-color: rgba(0, 0, 0, 1);
+        color: white;
+        opacity: 70%; 
+        width: 800px;
+        height: 800px;
+        margin: 40px auto;
+        padding-left: 50px;
+        padding-right: 50px;
+        gap: 15px;
+       }
+       .Sign-In{
+        color: white;
+        border: 2px solid rgba(255, 255, 255, 0);
+        background-color: red;
+        width: 800px;
+        height: 42px;
+        border-radius: 2px;
+       
+    }
+    .code{
+        width: 800px;
+        height: 42px;
+    }
+}
+@media (max-width : 767px) {
+       .Label{
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0 0 20px rgba(0,0,0,0.5);
+        border: 1px solid rgba(255, 255, 255, 0);
+        background-color: rgba(0, 0, 0, 1);
+        color: white;
+        opacity: 70%; 
+        width: 250px;
+        height: 750px;
+        margin: 40px auto;
+        padding-left: 50px;
+        padding-right: 50px;
+        gap: 15px;
+       }
+       .Sign-In{
+        color: white;
+        border: 2px solid rgba(255, 255, 255, 0);
+        background-color: red;
+        width: 250px;
+        height: 42px;
+        border-radius: 2px;
+       
+    }
+    .code{
+        width: 250px;
+        height: 42px;
+    }
+       label,input{
+        background-color: royalblue;
+       }
+       body{
+        margin: 0;
+        padding: 0;
+        min-height: 100vh;
+        width: auto;
+        height: auto;
+        background-size: cover;              
+        background-repeat: no-repeat;       
+        background-position: center center; 
+        background-attachment: fixed;        
+        min-height: 100vh;
+        width: 100%;
+        background-image: url('');
+       }
+
+}
+@media (max-width : 375px){
+    .Label{
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0 0 20px rgba(0,0,0,0.5);
+        border: 1px solid rgba(255, 255, 255, 0);
+        background-color: rgba(0, 0, 0, 1);
+        color: white;
+        opacity: 70%; 
+        width: 200px;
+        height: 750px;
+        margin: 40px auto;
+        padding-left: 50px;
+        padding-right: 50px;
+        gap: 15px;
+        
+    }
+    .Sign-In{
+        color: white;
+        border: 2px solid rgba(255, 255, 255, 0);
+        background-color: red;
+        width: 200px;
+        height: 42px;
+        border-radius: 2px;
+       
+    }
+    .code{
+        width: 200px;
+        height: 42px;
+    }
+
+
+}
