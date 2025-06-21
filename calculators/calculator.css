@@ -27,16 +27,40 @@ body{
 }
 .main-content{
     background-color: black;
-    text-align: center;
+    padding: 15px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    
 }
 .main-content form input{
-    width: 60rem;
-    height: 10rem;
+    border:32px solid transparent;
+    border-image: linear-gradient(to right,pink,yellow) 1;
+    padding: 30px 300px;
     font-size: 3rem;
     text-align: right;
     padding-right: 1rem;
+
 }
-.input p{
-    color:black;
-    background-color:lightgrey;
+.input{
+    padding-left: 15px;
+    display: flex;
+    gap: 0.7px;
+
 }
+.input i{
+    color:black
+}
+.Material-icons {
+    background-color: grey;
+    padding: 40px 110px;
+    margin: 0 auto;
+}
+#adjust{
+    padding-right:80px;
+}
+#adjust:hover{
+    opacity: 90%;
+}
+
