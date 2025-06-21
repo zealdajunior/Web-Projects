@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0px 5px;
+}
+.navigation{
+    background-color: black;
+}
+.navigation ul{
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 2rem;
+}
+.navigation ul li a{
+    text-decoration: none;
+    color: white;
+}
+.navigation ul li a:hover{
+    background:linear-gradient(90deg, pink, purple, blue, yellow);
+    padding:0.5rem 1rem;
+    transition: all 360ms ease-in-out;
+    border-radius:5px ;
+    color: black;
+}
+.navigation ul li{
+    list-style: none; 
+}
+.main-content{
+    background-color: black;
+    text-align: center;
+}
+.main-content form input{
+    width: 60rem;
+    height: 10rem;
+    font-size: 3rem;
+    text-align: right;
+    padding-right: 1rem;
+}
+.input p{
+    color:black;
+    background-color:lightgrey;
+}
