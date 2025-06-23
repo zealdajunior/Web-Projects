@@ -164,6 +164,7 @@ input {
 
 /* ========== FAQ Section ========== */
 .questions {
+
     display: flex;
     padding: 70px;
     flex-direction: column;
@@ -172,6 +173,7 @@ input {
 }
 
 .question1, .question2, .question3, .question4 {
+    
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -243,39 +245,3 @@ select {
 }
 
 /* ========== Media Queries ========== */
-@media (max-width: 1024px) {
-    .reason {
-        display: flex;
-        flex-direction: column;
-    }
-}
-
-@media (max-width: 1024px) {
-    input {
-        border-radius: 3px;
-        opacity: 30%;
-        border-style: white;
-        border-style: outset;
-        width: 250px;
-        height: 50px;
-    }
-}
-
-@media (max-width: 500px) {
-    .film1, .film2 {
-        display: flex;
-        flex-direction: column;
-    }
-}
-
-@media (max-width: 700px) {
-    .Footer1 {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .Footer2 {
-        display: flex;
-        flex-direction: column;
-    }
-}

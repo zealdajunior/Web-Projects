@@ -1,0 +1,116 @@
+/*Reponsiveness for the Netflix main page*/
+@media(max-width:414px){
+    img{
+        height: 80px;
+        width: 80px;
+     }
+    .Logo {
+        padding-top: 0px;
+        padding: 20px;
+        padding-left: 20px;
+    }
+    .container {
+        width: 100%;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+  }
+    
+}
+.reason1 {
+    
+    width: 320px;
+    height: 300px;
+    
+}
+.reason2{
+    
+    width: 320px;
+    height: 300x;
+   
+}
+.reason3{
+    
+    width: 320px;
+    height: 300px;
+    
+}
+.reason4{
+   
+    width: 320px;
+    height: 300px;
+    
+}
+.question1, .question2, .question3, .question4 {
+    display: flex;
+    height: 100px;
+    width: 220px;
+    padding-bottom: 20px;
+}
+section h2{
+    padding-left: 25px;
+}
+img {
+    height: 300px;
+    width: 300px;
+    transform: scale(1.0125);
+    border-radius: 25px;
+    transition: transform 0.4s ease-in-out;
+}
+.footer{
+    padding-left: 0px;
+}
+.Footer1{
+    padding-left: 0px;
+}
+.button1 {
+    width: 135px;
+    height: 53.5px;
+}
+input {
+    width: 370px;
+    height: 50px;
+}
+.p{
+    font-size: 10px;
+}
+
+ 
+
+@media (max-width: 1024px) {
+    .reason {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 1024px) {
+    input {
+        border-radius: 3px;
+        opacity: 30%;
+        border-style: white;
+        border-style: outset;
+        width: 250px;
+        height: 50px;
+    }
+}
+
+@media (max-width: 500px) {
+    .film1, .film2 {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 700px) {
+    .Footer1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Footer2 {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
